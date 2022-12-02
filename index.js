@@ -6,10 +6,12 @@ app.get('/consultar', (req, res) => {
   res.send("Hola gente");
 });
 
-
-
 app.get('/saludojose', (req, res) => {
   res.send("hola gente de parte de jose");
+});
+
+app.get('/Camilito', (req, res) => {
+  res.send("Salchipapa");
 });
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
